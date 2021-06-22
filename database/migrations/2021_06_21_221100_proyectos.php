@@ -19,6 +19,7 @@ class Proyectos extends Migration
             $table->string('imagen');
             $table->string('descripcion');
             $table->string('url');
+            
             $table->timestamps();
         });
     }

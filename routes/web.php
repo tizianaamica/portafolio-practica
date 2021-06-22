@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+//Ojo Rutas
+
 Route::get('/',[App\Http\Controllers\PortafolioController::class, 'index']);
 
 Auth::routes();
